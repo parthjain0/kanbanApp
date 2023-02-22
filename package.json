@@ -1,0 +1,51 @@
+{
+  "name": "kanbanapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@mantine/carousel": "^5.10.4",
+    "@mantine/core": "^5.10.4",
+    "@mantine/dates": "^5.10.4",
+    "@mantine/dropzone": "^5.10.4",
+    "@mantine/form": "^5.10.4",
+    "@mantine/hooks": "^5.10.4",
+    "@mantine/modals": "^5.10.4",
+    "@mantine/notifications": "^5.10.4",
+    "@mantine/nprogress": "^5.10.4",
+    "@reduxjs/toolkit": "^1.9.3",
+    "dayjs": "^1.11.7",
+    "embla-carousel-react": "^7.0.9",
+    "firebase": "^9.17.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "2.8.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
